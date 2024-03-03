@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ms-formation" />
-        <module name="ms-scholarity" />
         <module name="ms-bourse" />
+        <module name="ms-scholarity" />
       </profile>
     </annotationProcessing>
   </component>

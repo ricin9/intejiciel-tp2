@@ -21,6 +21,8 @@ public class Etudiant {
     @Column(nullable = false)
     private String name;
 
+    @Temporal(TemporalType.DATE)
+    private Date dateNaissance;
 
     @ManyToOne
     @JsonIgnore
@@ -29,7 +31,11 @@ public class Etudiant {
 
     @Column
     private Long idFormation;
+    @Column
+    private Long idBourse;
 
     @Transient
     private Formation formation;
+    @Transient
+    private Bourse bourse;
 }

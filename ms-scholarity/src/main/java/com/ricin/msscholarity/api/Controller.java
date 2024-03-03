@@ -2,6 +2,7 @@ package com.ricin.msscholarity.api;
 
 import com.ricin.msscholarity.entities.Etudiant;
 import com.ricin.msscholarity.entities.FormationProxy;
+import com.ricin.msscholarity.entities.BourseProxy;
 import com.ricin.msscholarity.repos.EtudiantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,10 +16,15 @@ public class Controller {
 
     @Autowired
     FormationProxy formationProxy;
+
+    @Autowired
+    BourseProxy bourseProxy;
+
     @GetMapping("/etudiant/{id}")
     public Etudiant getEtudiant(@PathVariable("id") Long id) {
         Etudiant e = etudiantRepository.findById(id).get();
         e.setFormation(formationProxy.getF(e.getIdFormation()));
+        e.setBourse(bourseProxy.getB(e.getIdBourse()));
         return e;
     }
 }

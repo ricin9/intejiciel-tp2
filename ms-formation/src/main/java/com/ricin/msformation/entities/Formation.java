@@ -18,4 +18,7 @@ public class Formation {
 
     @Column(nullable = false)
     private String name;
+
+    @Column()
+    private int duree;
 }

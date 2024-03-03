@@ -5,50 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f9650e4-fea1-4b0b-aefb-280ac9172aa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/ricin/msbourse/MsBourseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-bourse/src/test/java/com/ricin/msbourse/MsBourseApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/MsFormationApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/entities/Formation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/repos/FormationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-formation/src/test/java/com/ricin/msformation/MsFormationApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/MsScholarityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/api/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/Etablissement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/Etudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/Formation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/FormationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/repos/EtablissementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/repos/EtudiantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/test/java/com/ricin/msscholarity/MsScholarityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tp-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/ricin/msbourse/entities/Bourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/ricin/msbourse/repos/BourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/Bourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/BourseProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/java/com/ricin/msbourse/MsBourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/java/com/ricin/msbourse/MsBourseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-bourse/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-bourse/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/MsFormationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/MsFormationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/entities/Formation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/entities/Formation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/repos/FormationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-formation/src/main/java/com/ricin/msformation/repos/FormationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/MsScholarityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/MsScholarityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/api/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/api/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/entities/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/repos/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-scholarity/src/main/java/com/ricin/msscholarity/repos/EtudiantRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -90,9 +61,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MsBourseApplication.executor": "Run",
     "Spring Boot.MsFormationApplication.executor": "Run",
     "Spring Boot.MsScholarityApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -158,6 +130,7 @@
       <workItem from="1708850506735" duration="3062000" />
       <workItem from="1708853724940" duration="6000" />
       <workItem from="1708853800751" duration="4289000" />
+      <workItem from="1709459196308" duration="3386000" />
     </task>
     <servers />
   </component>
